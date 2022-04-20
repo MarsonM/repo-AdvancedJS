@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formValidation.css">
+</head>
+<body>
+    <form class="form" action="">
+        Введите ваше имя используя английский алфавит
+        <input placeholder="Имя" 
+            type="text" data-attr="name">
+            Введите номер в формате РФ (от 7 до 13 символов)
+        <input placeholder="Номер телефона" 
+            type="text" data-attr="phone"> 
+            Введите вашу электронную почту
+        <input placeholder="Адрес электронной почты" 
+            type="text" data-attr="email">
+        <button class="button" type="submit" disabled>
+            Отправить
+        </button>
+    </form>
+    <script src="formValidation.js"></script>
+</body>
+</html>
